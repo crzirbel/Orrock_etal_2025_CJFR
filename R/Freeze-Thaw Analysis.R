@@ -145,7 +145,7 @@ ft.data %>%
 ft.data %>% 
   select(FreezeThaw, Species, Fungicide, germinated, viable) %>% 
   group_by(Species) %>% 
-  mutate(prop.germ = germinated/viable) %>% 
+  mutate(prop.germ = germinated/(germinated + viable)) %>% 
   filter(is.finite(prop.germ), !is.na(prop.germ)) %>% 
   summarise(mean=mean(prop.germ),sd=sd(prop.germ),
             se=(sd(prop.germ)/sqrt(length(prop.germ))),
