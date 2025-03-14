@@ -1,0 +1,28 @@
+#Metadata for Orrock et al. 2025 Canadian Journal of Forest Research
+#Freeze-thaw events differently affect survival of seeds of two native and two invasive woody species
+
+FreezeThawGerminationData021323.csv
+Tray: Tray ID petri dish was associated with in the growth chamber
+ID: Unique ID for each petri dish
+FreezeThaw: Was the sample in the Freeze-thaw treatment or control?
+Fungicide: Was the sample in the Fungicide treatment or control?
+Species: Species code for the seeds within the petri dish
+Num.seeds: Number of seeds in the petri dish at the start of the experiment
+Seed1: Germination date of the first seed
+Seed2: Germination date of the second seed
+Seed3: Germination date of the third seed
+Seed4: Germination date of the fourth seed
+Seed5: Germination date of the fifth seed
+Seed6: Germination date of the sixith seed
+Seed7: Germination date of the seventh seed
+germinated: total number of seeds germinated in the petri dish at the end of the experiment
+fungus: Total number of seeds with fungal growth in the petri dish at the end of the experiment
+viable: Total number of seeds viable, squeeze test, that did not germinate in the petri dish at the end of the experiment
+total: Total number of seeds that either germinated or were ungerminated but viable in the petri dish at the end of the experiment
+notes: Any notes about seeds within the petri dish
+
+ft_temp_data.csv
+This file contains the temperature data in Celcius for each logger. The time column contains the data and time of the temperature reading.
+The remaining columns are the IDs of the loggers. These loggers are assigned treatments and Tray IDs in the logger_id_freeze_thaw.csv
+
+The freeze-thaw treatments began on January 2, 2023 and ended on January 9, 2023 at which point the samples were moved to the growth chamber.
